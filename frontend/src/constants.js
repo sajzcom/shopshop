@@ -1,7 +1,5 @@
 export const BASE_URL =
-  process.env.NODE_ENV === 'development'
-    ? 'http://localhost:3001'
-    : 'https://api.example.com'; // TODO: replace with your own API URL
+  process.env.NODE_ENV === 'develeopment' ? 'http://localhost:3001' : '/';
 export const PRODUCTS_URL = '/api/products';
 export const USERS_URL = '/api/users';
 export const ORDERS_URL = '/api/orders';
